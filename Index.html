@@ -1,9 +1,6 @@
 <button onclick="scan()">scan your ipad</button>
 <script>function scan(){
-        document.getElementById("s").innerHTML ="you are an infected with:Adblock defender pro, virus cleaner pro";
-        var button = document.createElement("BUTTON");
-        button.innerHTML = "clean viruses";
-        document.body.appendChild(button);
-        button.onclick = "alert('get pranked')";
+        document.write("you are an infected with:Adblock defender pro, virus cleaner pro, Click the button that says clean virus");
+        document.getElementById("s").style.display ="block";
   }</script>
-<p id="s"></p>
+<button id="s" style="display:none;">clean viruses</button>
